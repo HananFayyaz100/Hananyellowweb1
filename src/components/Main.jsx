@@ -233,7 +233,7 @@ function Main() {
           <motion.div variants={fadeInUp}>
             <span className='text-white font-medium text-[24px] md:text-[30px]'>Hi I'm</span><br />
             <h1 className='text-[40px] md:text-[60px] lg:text-[70px] text-white font-extrabold font-mono leading-tight'>
-              Hanan Fayyaz
+              Hanan Fayyaz second change for check
             </h1>
             <span className='text-[24px] md:text-[30px] text-white font-bold'>A Creative </span>
             <span className='inline-block text-[24px] md:text-[30px] text-yellow-400 font-extrabold drop-shadow-[0_0_15px_rgba(245,230,5,0.8)]'>
