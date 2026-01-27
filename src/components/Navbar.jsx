@@ -121,7 +121,7 @@ const Navbar = () => {
 
       {/* Hire Me Button (Hidden on Mobile) */}
       <button className="hidden lg:block bg-yellow-400 cursor-pointer hover:drop-shadow-[0_0_10px_rgba(245,230,5,0.6)] text-black px-6 py-2 rounded-full font-bold text-sm transition-all">
-        <Link to="contact" smooth duration={500}>Hire Me</Link>
+        <Link to="contact" smooth duration={500}>Contact Me</Link>
       </button>
 
       {/* Mobile Menu Toggle Icon */}
@@ -155,7 +155,7 @@ const Navbar = () => {
           ))}
           
           <button className="bg-yellow-400 text-black px-8 py-3 rounded-full font-bold text-lg" onClick={() => setIsOpen(false)}>
-            <Link to="contact" smooth duration={500}>Hire Me</Link>
+            <Link to="contact" smooth duration={500}>Menu</Link>
           </button>
         </div>
       </div>

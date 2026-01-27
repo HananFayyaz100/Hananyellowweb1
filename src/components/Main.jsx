@@ -259,9 +259,9 @@ function Main() {
           {/* Stats Section with Counting Look */}
           <motion.div variants={fadeInUp} className='flex flex-wrap justify-center lg:justify-between w-full pt-8 gap-8'>
             {[
-              { label: "Years of Experience", val: "5+" },
-              { label: "Projects Demo", val: "100+" },
-              { label: "Client Satisfaction", val: "99%" }
+              { label: "Years of Experience", val: "3+" },
+              { label: "Projects Demo", val: "50+" },
+              { label: "Client Satisfaction", val: "90%" }
             ].map((stat, i) => (
               <div key={i} className='text-center group'>
                 <span className='font-serif text-[40px] md:text-[50px] text-yellow-400 font-semibold group-hover:text-white transition-colors duration-300'>
