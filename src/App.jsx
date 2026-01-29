@@ -5,13 +5,14 @@ import AboutMe from './components/AboutMe';
 import './App.css';
 import MyArsenal from './components/MyArsenal';
 import Offer from './components/Offer';
-import Projects from './components/Projects';
+
 import AdminProjects from './components/AdminProjects';
-import MyCreation from './components/MyCreation';
+import MyCreations from "./components/MyCreations";
 import AdminProjects2 from './components/AdminProjects2';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import ConnectedDots from './components/ConnectedDots';
+import MyWork from "./components/MyWork";
 
 function App() {
   return (
@@ -52,11 +53,11 @@ function App() {
 </section>
 
 <section id="projects" className="min-h-screen py-12 scroll-mt-24">
-  <Projects />
+  <MyWork /> 
 </section>
 
 <section id="design" className="min-h-screen py-12 scroll-mt-24">
-  <MyCreation />
+  <MyCreations />
 </section>
 
 <section id="contact" className="min-h-screen py-12 scroll-mt-24">
