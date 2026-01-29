@@ -96,7 +96,11 @@ const AboutMe = () => {
         {/* Download Button */}
         <div className='mt-8 flex justify-center lg:justify-start'>
           <button className='group flex items-center cursor-pointer py-3 tracking-wide px-8 bg-yellow-300 text-black hover:bg-black border-2 border-transparent hover:border-yellow-300 hover:text-white font-bold rounded-2xl shadow-[0_0_20px_rgba(250,204,21,0.4)] hover:shadow-[0_0_30px_rgba(250,204,21,0.6)] transition-all duration-300'>
-            Download CV
+            <a
+        href="/Hanan.pdf" // Public folder ka path
+        download="Hanan_CV.pdf" // Wo naam jo download hone ke baad show hoga
+        
+      >Download CV</a>
             <FaDownload className='text-sm ml-2 text-black group-hover:text-white transition-colors duration-300'/>
           </button>
         </div>
